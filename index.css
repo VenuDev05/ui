@@ -1,0 +1,244 @@
+.navbar {
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+body {
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: aqua;
+    color: white;
+    border-color: white;
+}
+
+.home:hover {
+    height: fit-content;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: aquamarine;
+}
+
+.service:hover {
+    height: fit-content;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: aquamarine;
+}
+
+.about:hover {
+    height: fit-content;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: aquamarine;
+}
+
+.contact:hover {
+    height: fit-content;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: aquamarine;
+}
+
+.btn {
+    border-radius: 5px;
+    transition: 1s;
+    background-color: white;
+    color: aqua;
+    border-style: none;
+}
+
+@media screen and (max-width:480px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main {
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        font-size: small;
+    }
+
+    .footer,
+    .btn {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    body {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("./mobile-back.jpg");
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .service:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .about:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .contact:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .btn {
+        border-radius: 5px;
+        transition: 1s;
+        background-color: white;
+        color: aqua;
+        border-style: none;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:687px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .title{
+        font-size: xx-large;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main {
+        font-size: large;
+        margin-top: 300px;
+        margin-left: 0;
+    }
+
+    .footer {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    body {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("./mobile-back.jpg");
+    }
+
+    .home:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .service:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .about:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .contact:hover {
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+    }
+
+    .btn {
+        border-radius: 5px;
+        transition: 1s;
+        background-color: white;
+        color: aqua;
+        border-style: none;
+    }
+}
